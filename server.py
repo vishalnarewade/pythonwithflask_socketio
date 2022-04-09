@@ -1,9 +1,7 @@
 
 from flask import Flask, render_template, request
 from flask_socketio import SocketIO, send, emit
-# import PIL.Image as Image
 import base64
-# import io
 
 app = Flask(__name__, static_folder='template/assets', template_folder='template')
 adminUser = ''
